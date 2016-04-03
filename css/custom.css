@@ -1,0 +1,40 @@
+.hspan {
+    background:black;
+    opacity:0.8;
+    border: 1px solid #888;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    left:-58px;
+    display:none;
+    width:180px;
+    padding:10px 20px;
+    
+}
+.hspan:after {
+    content:'';
+    position:absolute;
+    bottom:-10px; 
+    width:10px;
+    height:10px;
+    border-bottom:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+    background:#f8f8f8;
+    left:50%;
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+.shover {
+    float:left;
+    position:relative;
+    cursor:pointer;
+}
+
+.shover:hover span{
+    display:block;
+}

@@ -2619,7 +2619,8 @@
   background: #ffffff;
 }
 .theme-sltl.color-default .sidebar .logopanel h1 a {
-  background: url(../images/logo/logo-dark.png) no-repeat;
+  background: url(logo-dark.png) no-repeat;
+  margin:10px;
 }
 .theme-sltl.color-default .sidebar .sidebar-inner {
   background: #ffffff;
